@@ -1,0 +1,24 @@
+
+CREDENCIALES PARA EVALUACIÓN DEL PROYECTO
+
+
+SOlo hay que crear un archivo .env en la carpeta backend/ con este contenido:
+
+MONGODB_URI=mongodb+srv://hibridas_app:clavesegura1234@cluster0.ucmmjnw.mongodb.net/pixel-planner?retryWrites=true&w=majority
+JWT_SECRET=pixel_planner_secret_key_2024_back_to_the_future_delorean
+PORT=3000
+
+
+
+INSTALACIÓN
+1. Backend:
+   cd backend
+   npm install
+   (crear el archivo .env con las credenciales de arriba)
+   npm start
+
+2. Frontend:
+   cd frontend
+   npm install
+   npm start
+
